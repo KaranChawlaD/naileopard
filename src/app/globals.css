@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+:root {
+  --background: #ffa0b9;
+  --foreground: #28000a;
+  --pinky: #ffa0b9;
+  --browny: #28000a;
+  --pinky2: #b63455;
+  --accent: #f04a76;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffa0b9;
+    --foreground: #28000a;
+    --pinky: #ffa0b9;
+    --browny: #28000a;
+    --pinky2: #b63455;
+    --accent: #f04a76;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--browny);
+  font-family: Unkempt;
+}
