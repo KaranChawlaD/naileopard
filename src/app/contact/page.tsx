@@ -1,6 +1,5 @@
 import ContactFooter from "../components/ContactFooter";
 import ContactInfo from "../components/ContactInfo";
-import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 
